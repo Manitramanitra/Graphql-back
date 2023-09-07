@@ -14,17 +14,16 @@ var schema = buildSchema(`
         email: String
     }
     type Query {
-        users: [Person]
+        users: [Person],
+        user(id:Int): Person
     }
 `);
 
 var root = {
-  users: ()=> userData
+  users: ()=> userData,
+  user:({id})=> userData.find(user=>user.id===id)
 };
 
-// graphql(schema, "{email,hello}",root).then((response)=>{
-//     console.log(response);
-// });
 
 app.use(
   "/graphql",
