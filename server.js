@@ -7,6 +7,8 @@ const app = express();
 
 app.use(morgan("dev"));
 
+let fakeDb = {};
+
 var schema = buildSchema(`
     type Person {
         id: Int,
@@ -16,12 +18,20 @@ var schema = buildSchema(`
     type Query {
         users: [Person],
         user(id:Int): Person
+        getMessage: String
+      }
+      type Mutation {
+        addMsg(msg: String): String
+        removeMessage: String
     }
 `);
 
 var root = {
   users: ()=> userData,
-  user:({id})=> userData.find(user=>user.id===id)
+  user:({id})=> userData.find(user=>user.id===id),
+  addMsg:({msg}) => fakeDb.message = msg,
+  getMessage: () => fakeDb.message,
+  removeMessa: ()=>fakeDb.message=""
 };
 
 
