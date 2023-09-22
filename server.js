@@ -2,12 +2,16 @@ const { buildSchema, graphql } = require("graphql");
 const express = require("express");
 const morgan = require("morgan");
 const { graphqlHTTP } = require("express-graphql");
-const userData = require('./user.json')
+const userData = require("./user.json");
+const e = require("express");
 const app = express();
 
 app.use(morgan("dev"));
 
-let fakeDb = {};
+let fakeDb = [
+  { id: 1, name: "Manitra", email: "Luc" },
+  { id: 2, name: "Manoa", email: "Mickaella" } ,
+];
 
 var schema = buildSchema(`
     type Person {
@@ -22,18 +26,22 @@ var schema = buildSchema(`
       }
       type Mutation {
         addMsg(msg: String): String
+        addUser(name:String,email:String): Person
         removeMessage: String
     }
 `);
 
 var root = {
-  users: ()=> userData,
-  user:({id})=> userData.find(user=>user.id===id),
-  addMsg:({msg}) => fakeDb.message = msg,
+  users: () => fakeDb,
+  user: ({ id }) => userData.find((user) => user.id === id),
+  addMsg: ({ msg }) => (fakeDb.message = msg),
   getMessage: () => fakeDb.message,
-  removeMessa: ()=>fakeDb.message=""
+  removeMessage: () => (fakeDb.message = ""),
+  addUser: ({ name, email }) => {
+    fakeDb.push({ id: fakeDb.length + 1, name, email });
+    return fakeDb[fakeDb.length - 1];
+  },
 };
-
 
 app.use(
   "/graphql",
