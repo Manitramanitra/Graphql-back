@@ -1,39 +1,6 @@
-const { ApolloServer, gql } = require("apollo-server");
-const CharactersData = require("./potter.json");
-
-const types = gql`
-  enum Gender {
-    male
-    female
-  }
-
-  type Wand {
-    wood: String
-    core: String
-    length: String
-  }
-
-  type Characters {
-    name: String!
-    gender: Gender
-    dateOfBirth: String
-    wand: Wand
-    alive: Boolean
-    image: String
-  }
-  
-  type Query {
-    characters: [Characters!]!
-  }
-`;
-
-const resolvers = {
-  Query: {
-    characters() {
-      return CharactersData;
-    },
-  },
-};
+const { ApolloServer } = require("apollo-server");
+const types = require("./types");
+const resolvers = require("./resolvers");
 
 const server = new ApolloServer({ typeDefs: types, resolvers });
 
