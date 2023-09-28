@@ -1,6 +1,3 @@
-const CharactersData = require("./db/potter.json");
-const Wands = require("./db/wand.json");
-
 const resolvers = {
   Character: {
     __resolveType(character, context, info) {
@@ -14,8 +11,8 @@ const resolvers = {
     },
   },
   Human: {
-    wand(parent) {
-      return Wands.find((item) => item.character_id == parent.id);
+    wand(parent,_,{wands}) {
+      return wands.find((item) => item.character_id == parent.id);
     },
   },
   WAND: {
@@ -25,17 +22,16 @@ const resolvers = {
     },
   },
   Query: {
-    human(_, {id},context) {
-      console.log(context);
-      return CharactersData.find((item) => item.id === id);
+    human(_, { id }, {characters}) {
+      return characters.find((item) => item.id === id);
     },
-    humans() {
-      return CharactersData.filter((cha) => cha.species === "human");
+    humans(_,__,{characters}) {
+      return characters.filter((cha) => cha.species === "human");
     },
-    notHumans() {
-      return CharactersData.filter((cha) => cha.species !== "human");
+    notHumans(_,__,{characters}) {
+      return characters.filter((cha) => cha.species !== "human");
     },
-    characters: () => CharactersData,
+    characters: (_,__,{characters}) => characters,
   },
 };
 
