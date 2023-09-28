@@ -5,5 +5,5 @@ const resolvers = require("./resolvers");
 const server = new ApolloServer({ typeDefs: types, resolvers });
 
 server.listen().then(({ url }) => {
-  console.log("Server is running in" + url);
+  console.log("Server is running in " + url);
 });

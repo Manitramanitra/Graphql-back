@@ -1,0 +1,152 @@
+[
+  {
+    "character_id": 1,
+    "wood": "holly",
+    "core": "phoenix feather",
+    "length": "11"
+  },
+  {
+    "character_id": 2,
+    "wood": "vine",
+    "core": "dragon heartstring",
+    "length": ""
+  },
+  {
+    "character_id": 3,
+    "wood": "willow",
+    "core": "unicorn tail-hair",
+    "length": "14"
+  },
+  {
+    "character_id": 4,
+    "wood": "hawthorn",
+    "core": "unicorn tail-hair",
+    "length": "10"
+  },
+  {
+    "character_id": 5,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 6,
+    "wood": "ash",
+    "core": "unicorn hair",
+    "length": "12.25"
+  },
+  {
+    "character_id": 7,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 8,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 9,
+    "wood": "oak",
+    "core": "",
+    "length": "16"
+  },
+  {
+    "character_id": 10,
+    "wood": "cherry",
+    "core": "unicorn tail-hair",
+    "length": "13"
+  },
+  {
+    "character_id": 11,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 12,
+    "wood": "yew",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 13,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 14,
+    "wood": "cypress",
+    "core": "unicorn tail-hair",
+    "length": "10.25"
+  },
+  {
+    "character_id": 15,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 16,
+    "wood": "walnut",
+    "core": "dragon heartstring",
+    "length": "12.75"
+  },
+  {
+    "character_id": 17,
+    "wood": "yew",
+    "core": "phoenix feather",
+    "length": "13.5"
+  },
+  {
+    "character_id": 18,
+    "wood": "cedar",
+    "core": "dragon heartstring",
+    "length": "10.25"
+  },
+  {
+    "character_id": 19,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 20,
+    "wood": "birch",
+    "core": "dragon heartstring",
+    "length": "8"
+  },
+  {
+    "character_id": 21,
+    "wood": "elm",
+    "core": "dragon heartstring",
+    "length": "18"
+  },
+  {
+    "character_id": 22,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 23,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 24,
+    "wood": "",
+    "core": "",
+    "length": ""
+  },
+  {
+    "character_id": 25,
+    "wood": "",
+    "core": "",
+    "length": ""
+  }
+]

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Harry Potter",
     "species": "human",
     "gender": "male",
@@ -9,11 +10,6 @@
     "ancestry": "half-blood",
     "eyeColour": "green",
     "hairColour": "black",
-    "wand": {
-      "wood": "holly",
-      "core": "phoenix feather",
-      "length": 11
-    },
     "patronus": "stag",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -22,6 +18,7 @@
     "image": "http://hp-api.herokuapp.com/images/harry.jpg"
   },
   {
+    "id": 2,
     "name": "Hermione Granger",
     "species": "human",
     "gender": "female",
@@ -31,11 +28,6 @@
     "ancestry": "muggleborn",
     "eyeColour": "brown",
     "hairColour": "brown",
-    "wand": {
-      "wood": "vine",
-      "core": "dragon heartstring",
-      "length": ""
-    },
     "patronus": "otter",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -44,6 +36,7 @@
     "image": "http://hp-api.herokuapp.com/images/hermione.jpeg"
   },
   {
+    "id": 3,
     "name": "Ron Weasley",
     "species": "human",
     "gender": "male",
@@ -53,11 +46,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "blue",
     "hairColour": "red",
-    "wand": {
-      "wood": "willow",
-      "core": "unicorn tail-hair",
-      "length": 14
-    },
     "patronus": "Jack Russell terrier",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -66,6 +54,7 @@
     "image": "http://hp-api.herokuapp.com/images/ron.jpg"
   },
   {
+    "id": 4,
     "name": "Draco Malfoy",
     "species": "human",
     "gender": "male",
@@ -75,11 +64,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "grey",
     "hairColour": "blonde",
-    "wand": {
-      "wood": "hawthorn",
-      "core": "unicorn tail-hair",
-      "length": 10
-    },
     "patronus": "",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -88,6 +72,7 @@
     "image": "http://hp-api.herokuapp.com/images/draco.jpg"
   },
   {
+    "id": 5,
     "name": "Minerva McGonagall",
     "species": "human",
     "gender": "female",
@@ -97,11 +82,6 @@
     "ancestry": "",
     "eyeColour": "",
     "hairColour": "black",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "tabby cat",
     "hogwartsStudent": false,
     "hogwartsStaff": true,
@@ -110,6 +90,7 @@
     "image": "http://hp-api.herokuapp.com/images/mcgonagall.jpg"
   },
   {
+    "id": 6,
     "name": "Cedric Diggory",
     "species": "human",
     "gender": "male",
@@ -119,11 +100,6 @@
     "ancestry": "",
     "eyeColour": "grey",
     "hairColour": "brown",
-    "wand": {
-      "wood": "ash",
-      "core": "unicorn hair",
-      "length": 12.25
-    },
     "patronus": "",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -132,6 +108,7 @@
     "image": "http://hp-api.herokuapp.com/images/cedric.png"
   },
   {
+    "id": 7,
     "name": "Cho Chang",
     "species": "human",
     "gender": "female",
@@ -141,11 +118,6 @@
     "ancestry": "",
     "eyeColour": "brown",
     "hairColour": "black",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "swan",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -154,6 +126,7 @@
     "image": "http://hp-api.herokuapp.com/images/cho.jpg"
   },
   {
+    "id": 8,
     "name": "Severus Snape",
     "species": "human",
     "gender": "male",
@@ -163,11 +136,6 @@
     "ancestry": "half-blood",
     "eyeColour": "black",
     "hairColour": "black",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "doe",
     "hogwartsStudent": false,
     "hogwartsStaff": true,
@@ -176,6 +144,7 @@
     "image": "http://hp-api.herokuapp.com/images/snape.jpg"
   },
   {
+    "id": 9,
     "name": "Rubeus Hagrid",
     "species": "half-giant",
     "gender": "male",
@@ -185,11 +154,6 @@
     "ancestry": "half-blood",
     "eyeColour": "black",
     "hairColour": "black",
-    "wand": {
-      "wood": "oak",
-      "core": "",
-      "length": 16
-    },
     "patronus": "",
     "hogwartsStudent": false,
     "hogwartsStaff": true,
@@ -198,6 +162,7 @@
     "image": "http://hp-api.herokuapp.com/images/hagrid.png"
   },
   {
+    "id": 10,
     "name": "Neville Longbottom",
     "species": "human",
     "gender": "male",
@@ -207,11 +172,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "",
     "hairColour": "blonde",
-    "wand": {
-      "wood": "cherry",
-      "core": "unicorn tail-hair",
-      "length": 13
-    },
     "patronus": "",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -220,6 +180,7 @@
     "image": "http://hp-api.herokuapp.com/images/neville.jpg"
   },
   {
+    "id": 11,
     "name": "Luna Lovegood",
     "species": "human",
     "gender": "female",
@@ -229,11 +190,6 @@
     "ancestry": "",
     "eyeColour": "grey",
     "hairColour": "blonde",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "hare",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -242,6 +198,7 @@
     "image": "http://hp-api.herokuapp.com/images/luna.jpg"
   },
   {
+    "id": 12,
     "name": "Ginny Weasley",
     "species": "human",
     "gender": "female",
@@ -251,11 +208,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "brown",
     "hairColour": "red",
-    "wand": {
-      "wood": "yew",
-      "core": "",
-      "length": ""
-    },
     "patronus": "horse",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -264,6 +216,7 @@
     "image": "http://hp-api.herokuapp.com/images/ginny.jpg"
   },
   {
+    "id": 13,
     "name": "Sirius Black",
     "species": "human",
     "gender": "male",
@@ -273,11 +226,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "grey",
     "hairColour": "black",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "hare",
     "hogwartsStudent": false,
     "hogwartsStaff": false,
@@ -286,6 +234,7 @@
     "image": "http://hp-api.herokuapp.com/images/sirius.JPG"
   },
   {
+    "id": 14,
     "name": "Remus Lupin",
     "species": "werewolf",
     "gender": "male",
@@ -295,11 +244,6 @@
     "ancestry": "half-blood",
     "eyeColour": "green",
     "hairColour": "brown",
-    "wand": {
-      "wood": "cypress",
-      "core": "unicorn tail-hair",
-      "length": 10.25
-    },
     "patronus": "wolf",
     "hogwartsStudent": false,
     "hogwartsStaff": true,
@@ -308,6 +252,7 @@
     "image": "http://hp-api.herokuapp.com/images/lupin.jpg"
   },
   {
+    "id": 15,
     "name": "Arthur Weasley",
     "species": "human",
     "gender": "male",
@@ -317,11 +262,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "blue",
     "hairColour": "red",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "weasel",
     "hogwartsStudent": false,
     "hogwartsStaff": false,
@@ -330,6 +270,7 @@
     "image": "http://hp-api.herokuapp.com/images/arthur.jpg"
   },
   {
+    "id": 16,
     "name": "Bellatrix Lestrange",
     "species": "human",
     "gender": "female",
@@ -339,11 +280,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "brown",
     "hairColour": "black",
-    "wand": {
-      "wood": "walnut",
-      "core": "dragon heartstring",
-      "length": 12.75
-    },
     "patronus": "",
     "hogwartsStudent": false,
     "hogwartsStaff": false,
@@ -352,6 +288,7 @@
     "image": "http://hp-api.herokuapp.com/images/bellatrix.jpg"
   },
   {
+    "id": 17,
     "name": "Lord Voldemort",
     "species": "human",
     "gender": "male",
@@ -361,11 +298,6 @@
     "ancestry": "half-blood",
     "eyeColour": "red",
     "hairColour": "bald",
-    "wand": {
-      "wood": "yew",
-      "core": "phoenix feather",
-      "length": 13.5
-    },
     "patronus": "",
     "hogwartsStudent": false,
     "hogwartsStaff": false,
@@ -374,6 +306,7 @@
     "image": "http://hp-api.herokuapp.com/images/voldemort.jpg"
   },
   {
+    "id": 18,
     "name": "Horace Slughorn",
     "species": "human",
     "gender": "male",
@@ -383,11 +316,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "green",
     "hairColour": "blonde",
-    "wand": {
-      "wood": "cedar",
-      "core": "dragon heartstring",
-      "length": 10.25
-    },
     "patronus": "",
     "hogwartsStudent": false,
     "hogwartsStaff": true,
@@ -396,6 +324,7 @@
     "image": "http://hp-api.herokuapp.com/images/slughorn.JPG"
   },
   {
+    "id": 19,
     "name": "Kingsley Shacklebolt",
     "species": "human",
     "gender": "male",
@@ -405,11 +334,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "brown",
     "hairColour": "brown",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "lynx",
     "hogwartsStudent": false,
     "hogwartsStaff": false,
@@ -418,6 +342,7 @@
     "image": "http://hp-api.herokuapp.com/images/kingsley.jpg"
   },
   {
+    "id": 20,
     "name": "Dolores Umbridge",
     "species": "human",
     "gender": "female",
@@ -427,11 +352,6 @@
     "ancestry": "half-blood",
     "eyeColour": "brown",
     "hairColour": "grey",
-    "wand": {
-      "wood": "birch",
-      "core": "dragon heartstring",
-      "length": 8
-    },
     "patronus": "persian cat",
     "hogwartsStudent": false,
     "hogwartsStaff": true,
@@ -440,6 +360,7 @@
     "image": "http://hp-api.herokuapp.com/images/umbridge.jpg"
   },
   {
+    "id": 21,
     "name": "Lucius Malfoy",
     "species": "human",
     "gender": "male",
@@ -449,11 +370,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "grey",
     "hairColour": "blonde",
-    "wand": {
-      "wood": "elm",
-      "core": "dragon heartstring",
-      "length": 18
-    },
     "patronus": "",
     "hogwartsStudent": false,
     "hogwartsStaff": false,
@@ -462,6 +378,7 @@
     "image": "http://hp-api.herokuapp.com/images/lucius.jpg"
   },
   {
+    "id": 22,
     "name": "Vincent Crabbe",
     "species": "human",
     "gender": "male",
@@ -471,11 +388,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "black",
     "hairColour": "black",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -484,6 +396,7 @@
     "image": "http://hp-api.herokuapp.com/images/crabbe.jpg"
   },
   {
+    "id": 23,
     "name": "Gregory Goyle",
     "species": "human",
     "gender": "male",
@@ -493,11 +406,6 @@
     "ancestry": "pure-blood",
     "eyeColour": "",
     "hairColour": "brown",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "",
     "hogwartsStudent": true,
     "hogwartsStaff": false,
@@ -506,6 +414,7 @@
     "image": "http://hp-api.herokuapp.com/images/goyle.jpg"
   },
   {
+    "id": 24,
     "name": "Mrs Norris",
     "species": "cat",
     "gender": "female",
@@ -515,11 +424,6 @@
     "ancestry": "",
     "eyeColour": "yellow",
     "hairColour": "brown",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "",
     "hogwartsStudent": false,
     "hogwartsStaff": true,
@@ -528,6 +432,7 @@
     "image": "http://hp-api.herokuapp.com/images/norris.JPG"
   },
   {
+    "id": 25,
     "name": "Argus Filch",
     "species": "human",
     "gender": "male",
@@ -537,11 +442,6 @@
     "ancestry": "squib",
     "eyeColour": "",
     "hairColour": "grey",
-    "wand": {
-      "wood": "",
-      "core": "",
-      "length": ""
-    },
     "patronus": "",
     "hogwartsStudent": false,
     "hogwartsStaff": true,

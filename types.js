@@ -6,35 +6,43 @@ const types = gql`
     female
   }
 
-  type Wand {
+  type WAND {
     wood: String
     core: String
     length: String
   }
 
-  interface Character{
+  interface Character {
+    id: ID!
     name: String
     gender: Gender
+    wand: WAND
   }
 
   type NotHuman implements Character {
+    id: ID!
     name: String
     gender: Gender
+    species: String
+    wand: WAND
   }
 
-  type Human implements Character{
+  type Human implements Character {
+    id: ID!
     name: String
     gender: Gender
     dateOfBirth: String
-    wand: Wand
+    wand: WAND
     alive: Boolean
     image: String
     species: String
   }
-  
+
   type Query {
     humans: [Human!]!
+    human(id: Int!): Human
     notHumans: [NotHuman!]!
+    characters: [Character!]!
   }
 `;
 
