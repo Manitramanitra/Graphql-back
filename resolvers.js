@@ -11,7 +11,7 @@ const resolvers = {
     },
   },
   Human: {
-    wand(parent,_,{wands}) {
+    wand(parent, _, { wands }) {
       return wands.find((item) => item.character_id == parent.id);
     },
   },
@@ -22,16 +22,27 @@ const resolvers = {
     },
   },
   Query: {
-    human(_, { id }, {characters}) {
+    human(_, { id }, { characters }) {
       return characters.find((item) => item.id === id);
     },
-    humans(_,__,{characters}) {
+    humans(_, __, { characters }) {
       return characters.filter((cha) => cha.species === "human");
     },
-    notHumans(_,__,{characters}) {
+    notHumans(_, __, { characters }) {
       return characters.filter((cha) => cha.species !== "human");
     },
-    characters: (_,__,{characters}) => characters,
+    characters: (_, __, { characters }) => characters,
+  },
+  Mutation: {
+    createCharacter(_, { data }, { characters }) {
+      console.log(data);
+      const new_data = {
+        ...data,
+        id: characters.length + 1,
+      };
+      characters.push(new_data);
+      return data;
+    },
   },
 };
 

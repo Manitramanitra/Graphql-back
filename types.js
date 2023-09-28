@@ -16,7 +16,6 @@ const types = gql`
     id: ID!
     name: String
     gender: Gender
-    wand: WAND
   }
 
   type NotHuman implements Character {
@@ -43,6 +42,16 @@ const types = gql`
     human(id: Int!): Human
     notHumans: [NotHuman!]!
     characters: [Character!]!
+  }
+  input createInput{
+    name: String!
+    gender: Gender!
+    dateOfBirth: String
+    alive: Boolean
+    image: String
+  }
+  type Mutation {
+    createCharacter(data: createInput!): Human
   }
 `;
 
